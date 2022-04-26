@@ -311,7 +311,7 @@ $DIMUPT
   9
 $DIMDEC
  70
-    2
+    4
   9
 $DIMTDEC
  70
@@ -775,9 +775,9 @@ $MAXACTVP
   9
 $PINSBASE
  10
-24.50331125827815
+30.97546588492361
  20
-12.5
+38.38861850658179
  30
 0
   9
@@ -800,6 +800,14 @@ $PEXTMAX
 0
  30
 0
+  9
+$GRIDMODE
+ 70
+    1
+  9
+$SNAPSTYLE
+ 70
+    0
   9
 $GRIDUNIT
  10
@@ -1113,9 +1121,9 @@ AcDbViewportTableRecord
  21
 1
  12
-222.0000267714797
+-123.1750301356176
  22
-149.8974539739051
+-28.48118285744517
  13
 0
  23
@@ -1141,9 +1149,9 @@ AcDbViewportTableRecord
  37
 0
  40
-388.0256878185265
+31.15890090387164
  41
-1.925427872860636
+2.125
  42
 50
  43
@@ -2589,7 +2597,7 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-*D3
+*D2
  70
     0
 280
@@ -2607,7 +2615,7 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-*D2
+*D3
  70
     0
 280
@@ -2747,6 +2755,192 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
+*D2
+ 70
+    1
+ 10
+0
+ 20
+0
+  3
+*D2
+  1
+
+  0
+LINE
+  5
+5A
+100
+AcDbEntity
+  8
+Arms
+  6
+ByBlock
+ 62
+    0
+370
+   -2
+100
+AcDbLine
+ 10
+110
+ 20
+22.5
+ 11
+125
+ 21
+22.5
+  0
+SOLID
+  5
+5B
+100
+AcDbEntity
+  8
+Arms
+  6
+ByBlock
+ 62
+    0
+370
+   -2
+100
+AcDbTrace
+ 10
+115
+ 20
+22.5
+ 30
+0
+ 11
+112.5
+ 21
+22.08371534222716
+ 31
+0
+ 12
+112.5
+ 22
+22.91628465777284
+ 32
+0
+ 13
+112.5
+ 23
+22.91628465777284
+ 33
+0
+  0
+SOLID
+  5
+5C
+100
+AcDbEntity
+  8
+Arms
+  6
+ByBlock
+ 62
+    0
+370
+   -2
+100
+AcDbTrace
+ 10
+120
+ 20
+22.5
+ 30
+0
+ 11
+122.5
+ 21
+22.91628465777284
+ 31
+0
+ 12
+122.5
+ 22
+22.08371534222716
+ 32
+0
+ 13
+122.5
+ 23
+22.08371534222716
+ 33
+0
+  0
+MTEXT
+  5
+5D
+100
+AcDbEntity
+  8
+Arms
+  6
+CONTINUOUS
+ 62
+    0
+370
+   -2
+100
+AcDbMText
+ 10
+125.4861111111112
+ 20
+24.375
+ 30
+0
+ 40
+2.5
+ 41
+9.722222222222378
+ 71
+    5
+ 72
+    1
+  1
+5.0000
+  7
+standard
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+ENDBLK
+  5
+50
+330
+4E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+52
+330
+51
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
 *D3
  70
     1
@@ -2761,7 +2955,7 @@ AcDbBlockBegin
   0
 LINE
   5
-5A
+5E
 100
 AcDbEntity
   8
@@ -2785,7 +2979,7 @@ AcDbLine
   0
 SOLID
   5
-5B
+5F
 100
 AcDbEntity
   8
@@ -2825,7 +3019,7 @@ AcDbTrace
   0
 SOLID
   5
-5C
+60
 100
 AcDbEntity
   8
@@ -2865,7 +3059,7 @@ AcDbTrace
   0
 MTEXT
   5
-5D
+61
 100
 AcDbEntity
   8
@@ -2911,7 +3105,7 @@ standard
   0
 LINE
   5
-5E
+62
 100
 AcDbEntity
   8
@@ -2935,7 +3129,7 @@ AcDbLine
   0
 LINE
   5
-5F
+63
 100
 AcDbEntity
   8
@@ -2956,192 +3150,6 @@ AcDbLine
 133.75
  21
 1.530757942277972e-016
-  0
-ENDBLK
-  5
-50
-330
-4E
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockEnd
-  0
-BLOCK
-  5
-52
-330
-51
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockBegin
-  2
-*D2
- 70
-    1
- 10
-0
- 20
-0
-  3
-*D2
-  1
-
-  0
-LINE
-  5
-60
-100
-AcDbEntity
-  8
-Arms
-  6
-ByBlock
- 62
-    0
-370
-   -2
-100
-AcDbLine
- 10
-110
- 20
-22.5
- 11
-125
- 21
-22.5
-  0
-SOLID
-  5
-61
-100
-AcDbEntity
-  8
-Arms
-  6
-ByBlock
- 62
-    0
-370
-   -2
-100
-AcDbTrace
- 10
-115
- 20
-22.5
- 30
-0
- 11
-112.5
- 21
-22.08371534222716
- 31
-0
- 12
-112.5
- 22
-22.91628465777284
- 32
-0
- 13
-112.5
- 23
-22.91628465777284
- 33
-0
-  0
-SOLID
-  5
-62
-100
-AcDbEntity
-  8
-Arms
-  6
-ByBlock
- 62
-    0
-370
-   -2
-100
-AcDbTrace
- 10
-120
- 20
-22.5
- 30
-0
- 11
-122.5
- 21
-22.91628465777284
- 31
-0
- 12
-122.5
- 22
-22.08371534222716
- 32
-0
- 13
-122.5
- 23
-22.08371534222716
- 33
-0
-  0
-MTEXT
-  5
-63
-100
-AcDbEntity
-  8
-Arms
-  6
-CONTINUOUS
- 62
-    0
-370
-   -2
-100
-AcDbMText
- 10
-125.4861111111112
- 20
-24.375
- 30
-0
- 40
-2.5
- 41
-9.722222222222378
- 71
-    5
- 72
-    1
-  1
-5.0000
-  7
-standard
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
   0
 ENDBLK
   5
@@ -3438,8 +3446,6 @@ AcDbDimension
    33
  71
     5
- 72
-    0
   3
 Standard
  53
@@ -3496,8 +3502,6 @@ AcDbDimension
    33
  71
     5
- 72
-    0
   3
 Standard
  53
@@ -3974,8 +3978,6 @@ AcDbDimension
    35
  71
     5
- 72
-    0
   3
 Standard
  53
@@ -4028,8 +4030,6 @@ AcDbDimension
    35
  71
     5
- 72
-    0
   3
 Standard
  53
@@ -4686,6 +4686,8 @@ AcDbDimension
    35
  71
     5
+ 72
+    0
   3
 Standard
  53
@@ -4740,6 +4742,8 @@ AcDbDimension
    35
  71
     5
+ 72
+    0
   3
 Standard
  53
@@ -4794,6 +4798,8 @@ AcDbDimension
    32
  71
     5
+ 72
+    0
   3
 Standard
  53
